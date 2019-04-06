@@ -28,8 +28,10 @@ clear ; close all; clc
 %
 fprintf('Finding closest centroids.\n\n');
 
+
 % Load an example dataset that we will be using
 load('ex7data2.mat');
+
 
 % Select an initial set of centroids
 K = 3; % 3 Centroids
@@ -64,6 +66,7 @@ fprintf('   [ 7.119387 3.616684 ]\n\n');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
+
 
 
 %% =================== Part 3: K-Means Clustering ======================
